@@ -24,6 +24,7 @@ const payload = {
     dueDate: dFormat,
     requestDescription: "Dummy merchant transaction",
     countryCode: "KE",
+    payerClientCode: "AIRTELKE",
     languageCode: "en",
     successRedirectUrl: "https://developer.tingg.africa/checkout-staging/v2/testers/default/TestSandboxRedirect.php",
     failRedirectUrl: "https://developer.tingg.africa/checkout-staging/v2/testers/default/TestSandboxRedirect.php",
